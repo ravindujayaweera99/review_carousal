@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-width: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.review-container {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(82, 31, 178);
+    padding: 30px;
+}
+
+.review img {
+    aspect-ratio: 1;
+    height: 200px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+    border: 5px solid rgb(82, 31, 178);
+}
+
+.review h3 {
+    font-size: 25px;
+}
+
+.review #desc {
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.review #name {
+    text-transform: uppercase;
+}
+
+.review #job {
+    color: rgb(82, 31, 178);
+}
+
+.review p {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.arrows {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.arrows h3 {
+    cursor: pointer;
+    color: rgb(82, 31, 178);
+}
+
+.review button {
+    background-color: rgb(82, 31, 178);
+    border: 0;
+    padding: 10px 25px;
+    color: #fff;
+    cursor: pointer;
+}

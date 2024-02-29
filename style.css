@@ -32,9 +32,8 @@ h1 {
 }
 
 .review img {
-    aspect-ratio: 1;
+    aspect-ratio: auto;
     height: 200px;
-    border-radius: 100%;
     margin-bottom: 30px;
     border: 5px solid rgb(82, 31, 178);
 }
@@ -54,6 +53,7 @@ h1 {
 
 .review #job {
     color: rgb(82, 31, 178);
+    text-align: center;
 }
 
 .review p {
